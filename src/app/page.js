@@ -20,6 +20,15 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
+              <div className="relative h-10 w-10 mr-3">
+                <Image
+                  src="/images/logo.png"
+                  alt="Nihongo Task Logo"
+                  fill
+                  className="object-contain"
+                  priority
+                />
+              </div>
               <h1 className="text-xl font-bold text-gray-800">
                 Nihongo <span className="text-red-500">Task</span>
               </h1>
@@ -114,7 +123,7 @@ export default function Home() {
               </div>
               <div className="relative h-64 sm:h-80 md:h-96 rounded-lg shadow-xl overflow-hidden">
                 <Image
-                  src="/placeholder-hero.jpg"
+                  src="/images/banner.jpg"
                   alt="Japanese learning experience"
                   fill
                   className="object-cover"
@@ -167,8 +176,8 @@ export default function Home() {
                 </h4>
                 <p className="text-gray-600">
                   Gain authentic cultural insights from a teacher based in
-                  Kyoto, one of Japan&apos;s most historic and culturally
-                  significant cities
+                  Kyoto, one of Japan&apos;s most historic and culturally significant
+                  cities
                 </p>
               </div>
 
@@ -203,7 +212,7 @@ export default function Home() {
               <div className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
                 <div className="relative h-48">
                   <Image
-                    src="/placeholder-beginner.jpg"
+                    src="/images/course1.jpg"
                     alt="Beginner Japanese Course"
                     fill
                     className="object-cover"
@@ -233,7 +242,7 @@ export default function Home() {
               <div className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
                 <div className="relative h-48">
                   <Image
-                    src="/placeholder-intermediate.jpg"
+                    src="/images/course2.jpg"
                     alt="Intermediate Japanese Course"
                     fill
                     className="object-cover"
@@ -263,7 +272,7 @@ export default function Home() {
               <div className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
                 <div className="relative h-48">
                   <Image
-                    src="/placeholder-advanced.jpg"
+                    src="/images/course3.jpg"
                     alt="Advanced Japanese Course"
                     fill
                     className="object-cover"
@@ -316,14 +325,14 @@ export default function Home() {
                 <div className="flex items-center">
                   <div className="relative w-12 h-12 rounded-full overflow-hidden mr-4">
                     <Image
-                      src="/placeholder-avatar1.jpg"
-                      alt="Sarah J."
+                      src="/images/irving.jpg"
+                      alt="Irving"
                       fill
                       className="object-cover"
                     />
                   </div>
                   <div>
-                    <h5 className="font-semibold text-gray-800">Sarah J.</h5>
+                    <h5 className="font-semibold text-gray-800">Irving</h5>
                     <p className="text-sm text-gray-600">
                       Beginner to Intermediate
                     </p>
@@ -340,7 +349,7 @@ export default function Home() {
                 <div className="flex items-center">
                   <div className="relative w-12 h-12 rounded-full overflow-hidden mr-4">
                     <Image
-                      src="/placeholder-avatar2.jpg"
+                      src="/images/irving.jpg"
                       alt="Michael T."
                       fill
                       className="object-cover"
@@ -364,7 +373,7 @@ export default function Home() {
                 <div className="flex items-center">
                   <div className="relative w-12 h-12 rounded-full overflow-hidden mr-4">
                     <Image
-                      src="/placeholder-avatar3.jpg"
+                      src="/images/irving.jpg"
                       alt="Elena R."
                       fill
                       className="object-cover"
@@ -435,7 +444,7 @@ export default function Home() {
                   href="#"
                   className="h-8 w-8 rounded-full bg-gray-800 flex items-center justify-center hover:bg-red-500 transition-colors"
                 >
-                  X
+                  t
                 </a>
                 <a
                   href="#"
